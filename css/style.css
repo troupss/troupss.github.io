@@ -10,7 +10,9 @@ body{
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
 }
-
+.inici{
+    margin-left: 15px;
+}
 .principal1 {
     display: flex;
     align-items: center;
@@ -58,7 +60,7 @@ body{
 
 .presentació1 {
     height: 90vh !important;
-    background: url(/img/wp5226830-polo-g-cartoon-wallpapers.jpg) no-repeat center;
+    background: url(/img/6536977.jpg) no-repeat center;
     background-size: cover;
 }
 
@@ -72,24 +74,26 @@ body{
 p{
     margin-top: 80px;
     margin-bottom: 40px;
-    font-size: 18px;
-    color: #424040;
+    font-size: 25px;
+    color: #000000;
+    padding: 0 50px;
 }
 .btn-info{
     display: inline-block;
     margin-top: 15px;
     padding: 10px 40px;
-    border: 2px solid #000000;
+    border: 2px transparent #000000;
     color: #424040;
     text-decoration: none;
     background: #000000;
+    text-transform: uppercase;
 }
 .btn-info a{
-    margin: 0 10px;
+    margin: 2px 2px;
     color: #fff;
 }
 .btn-info:hover{
-    background: none;
+    background-color: #424040;
 }
 
 .box-container{
@@ -125,4 +129,26 @@ p{
 }
 .box-container .box p{
     font-size: 16px;
+    padding: 0 15px;
+}
+.AboutMe{
+    background: #424040;
+    margin: 4rem;
+}
+.AboutMe .About{
+    margin: 1rem;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+@media(max-width: 768px) {
+    .titol{
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+    .navegació{
+        display: none;
+    }
+    
 }

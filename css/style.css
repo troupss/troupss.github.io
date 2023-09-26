@@ -19,7 +19,7 @@ body{
     align-items: center;
     justify-content: space-between;
     height: 65px;
-    background-color: #000000;
+    background-color: #ffffff;
     position: fixed;
     width: 100%;
     z-index: 100;
@@ -44,13 +44,13 @@ body{
 .navegació a{
     display: flex;
     padding: 20px 20px;
-    color: #fff;
+    color: #000000;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 19px;
 }
 .navegació a:hover{
-    background-color: #424040;
+    background-color: #b4acac;
 }
 
 .header{
@@ -61,7 +61,7 @@ body{
 
 .presentació1 {
     height: 90vh !important;
-    background: url(/img/pexels-quang-nguyen-vinh-2131614.jpg) no-repeat center;
+    background: url(/img/pexels-aleksandar-pasaric-325185.jpg) no-repeat center;
     background-size: cover;
 }
 
@@ -80,23 +80,7 @@ p{
     color: #fff;
 }
 
-.btn-info{
-    display: inline-block;
-    margin-top: 15px;
-    padding: 10px 40px;
-    border: 1px transparent #000000;
-    color: #424040;
-    text-decoration: none;
-    background: #000000;
-    text-transform: uppercase;
-}
-.btn-info a{
-    margin: 2px 0;
-    color: #fff;
-}
-.btn-info:hover{
-    background-color: #424040;
-}
+
 
 .box-container{
     display: flex;
@@ -148,7 +132,7 @@ p{
     color: rgb(red, green, blue);
 }
 #asd{
-    color: #fff;
+    color: #000000;
 }
 #seccio{
     background-color: #000000;

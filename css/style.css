@@ -1,3 +1,4 @@
+/* Principal */ 
 *{
     margin: 0;
     padding: 0;
@@ -5,43 +6,28 @@
     font-size: 100%;
     vertical-align: baseline;
 }
-
-
 body{
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
 }
-.inici{
+#icono{
     margin-left: 15px;
+    padding-top: 5px;
 }
 .principal1 {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    justify-content: space-between; 
     height: 65px;
     background-color: #ffffff;
     position: fixed;
     width: 100%;
     z-index: 100;
 }
-
-.navegació {
+#menu {
     display: flex;
-    margin-right: 10px;
 }
 
-.header {
-    margin-left: 30px;
-}
-
-.principal a{
-    text-decoration: none;
-    color: #424040;
-    text-transform: uppercase;
-    font-size: 19px;
-}
-
-.navegació a{
+#menu a{
     display: flex;
     padding: 20px 20px;
     color: #000000;
@@ -52,98 +38,134 @@ body{
 .navegació a:hover{
     background-color: #b4acac;
 }
-
-.header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .presentació1 {
+    padding-top: 30px;
     height: 90vh !important;
     background: url(/img/pexels-aleksandar-pasaric-325185.jpg) no-repeat center;
     background-size: cover;
 }
+#projecte{
+    padding-top: 50px;
+}
+#asd{
+    padding-top: 90px;
+    color: #000000;
+    font-size: 25px;
+}
 
-.titol{
+/* Lenguajes */ 
+
+#paraula_lenguaje{
     margin-bottom: 40px;
-    font-size: 60px;
+    padding-top: 20px;
+    font-size: 50px;
     font-weight: 600;
     text-transform: uppercase;
-    color: #ffffff;
+    color: #000000;
 }
-p{
-    margin-top: 80px;
+
+#texte2{
     margin-bottom: 40px;
-    font-size: 28px;
+    font-size: 25px;
     padding: 0 50px;
-    color: #fff;
+    color: #000000;
 }
-
-
-
-.box-container{
+#tabla_lenguajes{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     text-align: center;
 }
-.box-container .box{
-    height: 11rem;
-    width: 17rem;
-    background: #424040;
-    text-align: center;
-    border-radius: 1rem;
-    box-shadow: 0 .3rem 5rem rgb(red, green, blue, .5);
-    margin: 2rem;
-} 
-.box-container .box img{
-    height: 3rem;
-    width: 3rem;
-    line-height: 3rem;
+.tabla_lenguajes .box img{
+    height: 5rem;
+    width: 5rem;
     text-align: center;
     border-radius: 50%;
     color: #fff;
-    background: #424040;
-    font-size: 2rem;
     margin: 1rem 0;
+    padding: 0 15px;
+    margin-bottom: 70px;
 }
 
-.box-container .box h4{
+/* Proyectos */
+
+#seccio{
+    background-color:#000000;
+}
+
+#paraulas{
+    margin-bottom: 40px;
+    padding-top: 20px;
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+#texte{
+    margin-bottom: 40px;
+    font-size: 25px;
+    padding: 0 50px;
+    color: #fff;
+}
+
+#tabla_projectes{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.tabla_projectos .box img{
+    height: 5rem;
+    width: 5rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    margin: 1rem 0;
+}
+.tabla_projectos .box h4{
     font-size: 20px;
-    color: #424040;
+    color: #ffffff;
+    padding: 0 20px;
+    margin-bottom: 20px;
 }
-.box-container .box p{
-    font-size: 16px;
-    padding: 0 15px;
+.tabla_projectos .box p{
+    font-size: 12px;
+    padding: 0 25px;
+    padding-bottom: 40px;
 }
-.AboutMe{
-    background: #424040;
-    margin: 4rem;
+
+/* Localització */
+
+#lloc{
+    margin: 2rem;
+    background-color: #ffffff;
 }
 .AboutMe .About{
-    margin: 1rem;
-    color: #fff;
+    margin-bottom: 40px;
+    padding-top: none;
+    font-size: 50px;
+    font-weight: 600;
     text-transform: uppercase;
-    margin-top: 20px;
-}
-#projecte a{
-    text-decoration: none;
-    color: rgb(red, green, blue);
-}
-#asd{
     color: #000000;
 }
-#seccio{
-    background-color: #000000;
-}
-@media(max-width: 768px) {
-    .titol{
+
+
+
+@media(max-width: 700px) {
+    #paraula_lenguaje{
         margin-bottom: 0;
         font-size: 40px;
     }
-    .navegació{
-        display: none;
+    #asd{
+        font-size: 20px;
+
+    }
+    #paraulas{
+        margin-bottom: 0;
+        font-size: 40px; 
+    }
+    #menu a{
+        font-size: 8px;
     }
     
 }

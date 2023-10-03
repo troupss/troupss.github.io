@@ -41,8 +41,9 @@ body{
 .presentació1 {
     padding-top: 30px;
     height: 90vh !important;
-    background: url(/img/pexels-aleksandar-pasaric-325185.jpg) no-repeat center;
+    background: url(/img/Optimized-pexels-aleksandar-pasaric-325185.jpg) no-repeat center;
     background-size: cover;
+    background-attachment: fixed;
 }
 #projecte{
     padding-top: 50px;
@@ -83,7 +84,7 @@ body{
     border-radius: 50%;
     color: #fff;
     margin: 1rem 0;
-    padding: 0 15px;
+    padding: 0 20px;
     margin-bottom: 70px;
 }
 
@@ -121,6 +122,7 @@ body{
     border-radius: 50%;
     color: #fff;
     margin: 1rem 0;
+    padding: 0 50px;
 }
 .tabla_projectos .box h4{
     font-size: 20px;
